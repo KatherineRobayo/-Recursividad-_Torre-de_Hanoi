@@ -23,3 +23,9 @@ PASOS PARA EL FUNCIONAMIENTO
 3. Se llama recursivamente a hanoi() para mover los n-1 discos de la torre de origen a la torre auxiliar, usando la torre destino como auxiliar.
 4. Se imprime el movimiento del disco más grande desde la torre de origen a la torre destino.
 5. Se llama recursivamente a hanoi() para mover los discos desde la torre auxiliar a la torre destino, usando la torre origen como auxiliar.
+6. Se crea un objeto Scannerllamado entradapara leer datos del usuario.
+7. Se muestra un mensaje en consola pidiendo el número de discos.
+8. See lee el número ingresado y se almacena en la variable n.
+9. Se cierra el Scannerpara liberar recursos.
+10. Se imprime un mensaje indicando que se mostrarán los movimientos.
+11.  Se llama al método hanoi(n, 'A', 'B', 'C')para resolver el problema.
